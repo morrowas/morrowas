@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nokora', Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+    margin: 0;
+    letter-spacing: 1.5px;
+}
+
+/*Top navigation bar style*/
+.navbar {
+    display: flex;
+    background-color: #230C65;
+    justify-content: flex-end;
+}
+
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background-image: url("triangles-1430105_1280.png");
+    background-size: cover;
+    background-color: #1abc9c;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    padding: 45px;
+}
+
+.row h2, h3, h4 {
+    color: #230C65;
+}
+
+
+
+.side {
+    flex: 50%;
+    background-color: #E8F4F5;
+    padding: 40px;
+}
+
+.main {
+    flex: 50%;
+    background-color: #F9FAFA;
+    padding: 40px;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+}
